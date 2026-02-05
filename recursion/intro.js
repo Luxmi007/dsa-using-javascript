@@ -107,6 +107,7 @@ console.log(factorial(0)); // Output: 1
 // ultimately returning the final result to the original caller.
 
 // ++++++++++ DIFFERENCE BETWEEN RECURSION AND ITERATION ++++++++++++++++
+// THINGS CAN BE SOLVED USING BOTH RECURSION AND ITERATION, but the choice between them depends on the specific problem and the programmer's preference.
 // Recursion and iteration are both techniques used to repeat a block of code, but they do so in different ways:
 
 // 1. Definition:
@@ -128,3 +129,12 @@ console.log(factorial(0)); // Output: 1
 // 5. Readability and Maintainability:
 //    - Recursion: Can be more readable and easier to implement for problems that have a natural recursive structure (e.g., tree traversals).
 //    - Iteration: May be more straightforward for simple repetitive tasks but can become complex for problems that are inherently recursive.
+
+// ++++++++++++++++++ WAYS TO WRITE BASE CONDITIONS +++++++++++++++++++++++++++++++
+
+// 1. Think of first valid input 
+// 2. Think of the first invalid input
+
+// +++++++++RECURRENCE RELATION +++++++++++++++++++++++++++++++
+// In the context of recursion, it describes how the result of a recursive function can be expressed in terms of its results for smaller inputs.
+// Recurrence relations are often used to analyze the time complexity of recursive algorithms.
